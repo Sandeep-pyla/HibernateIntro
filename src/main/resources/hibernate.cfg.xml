@@ -9,14 +9,14 @@
             com.mysql.cj.jdbc.Driver
         </property>
         <property name = "hibernate.connection.url">
-            jdbc:mysql://{MYSQL_HOST}/bookstore
+            jdbc:mysql://localhost/bookstore
         </property>
         <property name = "hibernate.connection.username">
-            {MYSQL_USERNAME}
+            root
         </property>
         <!-- Enter your correct password here -->
         <property name = "hibernate.connection.password">
-            {MYSQL_PASSWORD}
+            password
         </property>
         <!-- Echo all executed SQL to stdout -->
         <property name = "show_sql">
