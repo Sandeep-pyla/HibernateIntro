@@ -40,13 +40,13 @@ curl --location "http://localhost:8080/saveBook" \
   "price": 19.99
 }'
 
-```list all books
+## list all books
 curl --location "http://localhost:8080/getBooks"
 
-```get book by id
+## get book by id
 curl --location "http://localhost:8080/getBook/1"
 
-```update book by id
+## update book by id
 curl --location --request PUT "http://localhost:8080/updateBook/1" \
 --header "Content-Type: application/json" \
 --data '{
